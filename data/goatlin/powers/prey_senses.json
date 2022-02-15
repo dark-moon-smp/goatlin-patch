@@ -1,0 +1,14 @@
+{
+    "type": "origins:entity_glow",
+    "condition": {
+        "type": "origins:power_active",
+        "power": "goatlin:toggle"
+    },
+    "name":"Prey-Senses[Secondary]",
+    "description":"Your uniquely shaped eyes along with a keen sense of hearing and smell means it is difficult for predators to sneak up on you.",
+	"bientity_condition":{
+		"type":"origins:distance",
+		"comparision":"<=",
+		"compare_to":20
+	}
+}
